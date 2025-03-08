@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 90%;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+/* Buttons */
+button, .btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+button {
+    background: #ff5733;
+    color: white;
+}
+
+button:hover {
+    background: #ff2e63;
+}
+
+.btn {
+    background: white;
+    color: #ff758c;
+}
+
+.btn:hover {
+    background: #ddd;
+}
+
+/* Form Inputs */
+input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Header */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Task Dashboard */
+.task-container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 80%;
+    max-width: 600px;
+}
+
+.task-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task-container li {
+    background: white;
+    color: black;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.task-container span {
+    font-weight: bold;
+    float: right;
+}
+
+/* Task Status Page */
+.status-container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 90%;
+}
+
+.status-container h2 {
+    margin-bottom: 10px;
+}
